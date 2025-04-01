@@ -26,19 +26,5 @@ Il s'agit de mon premier projet en PHP, une première tentative qui nécessite e
 - `membre.php` : Gestion des membres
 - `Client.php / Hotel.php / Reservation.php` : Fichiers de soutien pour la gestion des données
 
-## Installation
-1. Cloner ce repository :
-   ```sh
-   git clone https://github.com/KoloinaRan/gestion_hotel.git
-   ```
-2. Importer le fichier `hotel.sql` dans votre base de données MySQL
-3. Configurer la connexion à la base de données dans `Connexion.php`
-4. Lancer un serveur local (ex: WAMP, XAMPP) et accéder au projet via `http://localhost/gestion_hotel`
-
-## Améliorations Futures
-- Ajout d'un design plus moderne 
-- Sécurisation des données avec des requêtes préparées
-- Optimisation du code pour une meilleure performance
-
 ## Auteur
 **KoloinaRandriarisoa** - Premier projet PHP, en cours d'amélioration
