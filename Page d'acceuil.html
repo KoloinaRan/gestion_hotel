@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Site de reservation en ligne</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<style type="text/css">
+        	body {
+			background: url(KOLOINA/image.jpg);
+			background-size:cover;
+            background-attachment: fixed;
+			color: white;
+			min-width: 100px;
+		}
+
+        nav ul  {
+			list-style-type: none;
+			display: inline;
+			margin-left: -45px;
+		}
+
+		nav ul  a {
+			padding: 10px;
+			text-decoration:none;
+			color: rgb(238, 231, 231);
+            margin-left: 50px;
+			margin-right: 50px;
+		}
+
+		nav ul a:hover {
+			animation: animat 1.6s forwards;
+			color: black;
+		}
+
+		@keyframes animat {
+			from {
+				background-color: rgb(28, 70, 80);
+					box-shadow: 1px 1px 10px grey;
+				} to {
+						background-color: rgb(48, 49, 75);
+				}
+		}
+
+        img {
+			width: 150px;
+			height:150px;
+			margin-left:40px;
+			margin-top:10px;
+            margin-bottom:0px;
+            margin-right:40px;
+		
+			left: 10px;
+            top: 30px;
+			box-shadow: 0px 0px 2px WHITE;
+			border-top-left-radius: 10px;border-top-right-radius: 10px;
+			border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;
+		}
+
+        
+		img:hover {
+			animation: animate 0.2s forwards;
+		}
+		@keyframes animate {
+			from {
+				z-index: 1;
+				margin-top: 15px; 
+				transition: 2s ease-out;
+			} to {
+				z-index: 1;
+				margin-top: 0;
+				transform: rotateZ(5deg);
+				transition: 2s ease-out;
+				box-shadow: 5px 5px 20px grey;
+			} 
+		}
+
+
+		table {
+			width:50px;
+            margin-bottom: 0px;
+		}
+input {
+		border-radius: 6px;
+		width: 100px;
+		height: 30px;
+		background-image: 
+        linear-gradient(10deg,rgb(28, 70, 80),transparent,rgb(28, 70, 80));
+		}
+
+	</style>
+</head>
+<body>
+
+<div style="width: 100%; 
+background-image: 
+linear-gradient(10deg,rgb(28, 70, 80),transparent,rgb(28, 70, 80)); float:center;
+box-shadow: -2px 2px 0px 0px rgb(28, 70, 80);
+border-top-left-radius: 50px;border-top-right-radius: 50px;
+border-bottom-left-radius: 50px;border-bottom-right-radius: 50px;">
+	<center><h1><i> HOTEL </i></h1>
+    <nav>
+        <ul><tr>
+            <th><a href="Administrateur.html">Administrateur</a></th>
+            <th><a href="Inscription.php">Inscription</a></th>
+            <th><a href="Reservation.php">Reservation</a></th>
+            <th><a href="Connexion.html">Connexion</a></th>
+        </tr></ul>
+    </nav>
+</div></center>
+<br>
+   <center><table border="0">
+        <tr><td><img src="KOLOINA/tubara1.png">
+        <center><h2>TUBARA</h2>
+        Punta Bolivar ,San Antero
+        
+        </td>
+        <td><img src="KOLOINA/santika1.png">
+        <center><h2>Santika Hotel</h2>
+           Jakarta
+            
+        </td>
+        <td><img src="KOLOINA/canggu1.png">
+            <center><h2>Villa Avanti Canggu</h2>
+                Canggu Bali
+               
+        </td>
+        <td><img src="KOLOINA/playa1.png">
+            <center><h2>Gourou Hotel Tipp</h2>
+              Playa de Muro
+                
+        </td>
+           </tr>
+		  
+    </table> <br><a href="A propos.html"><input style="min-width: 70px;margin-top: 10px; margin-bottom: 10px;
+		"type="button" value="A propos"></a></center> 
+    <br>
+    
+<div style="width: 100%; 
+background-image: 
+linear-gradient(20deg,black,rgb(28, 70, 80),black,rgb(28, 70, 80)); float:center;
+box-shadow: -2px 2px 0px 0px rgb(28, 70, 80);
+border-top-left-radius: 50px;border-top-right-radius: 50px;
+border-bottom-left-radius: 50px;border-bottom-right-radius: 50px;">
+<center><h4>Bienvenue sur notre site web dédié &agrave; notre collection d'h&ocirc;tels privés d'exception.<br>
+    Nous sommes ravis de vous acceuillir et de vous presenter les merveilleuses experiences que nous proposons.
+	Découvrer nos quatre hotels et vous pouvez facilement effectuer une reservation en ligne 
+    (inscrit ou non dans notre site web).Nous sommes impatients de vous offrir une experience exceptionnelle.</h4></center>
+</div>
+
+ 
+
+    <center> <footer style="color: black; opacity: 10;">
+        Koloina| copyright 2023&copy;.
+    </footer></center>
+</body>
+</html>
