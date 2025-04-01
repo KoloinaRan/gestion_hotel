@@ -1,7 +1,7 @@
 # Gestion d'Hôtel
 
 ## Description
-**gestion_hotel** est un projet PHP permettant de gérer les réservations d'hôtels en ligne. Ce projet inclut des fonctionnalités pour l'inscription et la connexion des utilisateurs, l'administration des hôtels et des réservations, ainsi que la gestion des clients.
+**gestion_hotel** est un projet PHP permettant de gérer les réservations d'hôtels en ligne. Ce projet inclut des fonctionnalités pour l'inscription et la connexion des utilisateurs, l'administration des hôtels et des réservations.
 
 Il s'agit de mon premier projet en PHP, une première tentative qui nécessite encore des améliorations et des optimisations.
 
